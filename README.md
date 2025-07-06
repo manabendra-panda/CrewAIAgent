@@ -23,8 +23,9 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+```
 
-##🔐 Environment Variables
+## 🔐 Environment Variables
 AZURE_OPENAI_API_KEY={AZURE_OPENAI_API_KEY}
 AZURE_OPENAI_API_VERSION={AZURE_OPENAI_API_VERSION}
 AZURE_OPENAI_ENDPOINT={AZURE_OPENAI_ENDPOINT}
@@ -39,9 +40,9 @@ AZURE_DEVOPS_BRANCH = {AZURE_DEVOPS_BRANCH}
 Execute the main agent script:
 ```bash
 python Code.py
-
-## 📁 Project Structure
 ```
+## 📁 Project Structure
+
 ├── Code.py                    # Main entry script
 ├── CodeDocumentationAgent.py # Defines the CrewAI agent
 ├── KnowledgeGraphBuilder.py  # Parses C# and builds graph
