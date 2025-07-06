@@ -1,25 +1,54 @@
-<<<<<<< HEAD
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+TODO: A Python-based tool for automatically generating documentation from C# code repositories. 
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# 🚀 Getting Started
+TODO: This project uses Python and CrewAI to automatically generate documentation from a C# codebase, representing it as a knowledge graph and converting relationships into Markdown documentation.
+## 📦 Prerequisites
+Make sure the following are installed:
+- Python 3.12.0
+- Git
+- pip 25.1.1
+- [Azure DevOps PAT](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate)
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## 🔧 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/manabendra-panda/CrewAIAgent.git
+cd CrewAIAgent.git
+
+# Set up virtual environment
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+##🔐 Environment Variables
+AZURE_OPENAI_API_KEY={AZURE_OPENAI_API_KEY}
+AZURE_OPENAI_API_VERSION={AZURE_OPENAI_API_VERSION}
+AZURE_OPENAI_ENDPOINT={AZURE_OPENAI_ENDPOINT}
+AZURE_OPENAI_DEPLOYMENT={AZURE_OPENAI_DEPLOYMENT}
+AZURE_DEVOPS_PAT = {AZURE_DEVOPS_PAT}
+AZURE_DEVOPS_ORG = {AZURE_DEVOPS_ORG}
+AZURE_DEVOPS_PROJECT = {AZURE_DEVOPS_PROJECT}
+AZURE_DEVOPS_REPOSITORY = {AZURE_DEVOPS_REPOSITORY}
+AZURE_DEVOPS_BRANCH = {AZURE_DEVOPS_BRANCH}
+
+## 🧠 Run the Agent Crew
+Execute the main agent script:
+```bash
+python Code.py
+
+## 📁 Project Structure
+```
+├── Code.py                    # Main entry script
+├── CodeDocumentationAgent.py # Defines the CrewAI agent
+├── KnowledgeGraphBuilder.py  # Parses C# and builds graph
+├── requirements.txt
+└── README.md
 
 # Contribute
 TODO: Explain how other users and developers can contribute to make your code better. 
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
-=======
-# CrewAIAgent
-The purpose of this repository is to convert C# code into structured Markdown documentation.
->>>>>>> ef47826e9283118916f681565763f00a8195df4a
+
