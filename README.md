@@ -52,7 +52,43 @@ python Code.py
 └── README.md
 ```
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve the knowledge graph, enhance documentation formatting, or add new agent capabilities — feel free to jump in.
+
+### 📌 How to Contribute
+
+1. **Fork** this repository
+2. **Create a branch** for your feature or fix  
+```bash
+   git checkout -b feature/your-feature-name
+ ```
+3. **Make your changes**
+4. **Test throughly**
+5. **Commit with a clear message**
+
+```bash
+   git commit -m "Add feature: brief description"
+```
+6. **Push your branch**
+
+```bash
+git push origin feature/your-feature-name
+```
+7. Create a Pull Request describing your changes
+
+🧪 Suggestions for Contribution
+- Improve the knowledge graph parser for C# (support interfaces, enums, etc.)
+- Add automatic .md file push to Azure DevOps
+- Add test coverage or sample code for validation
+- Create a UI to visualize the graph interactively
+- Optimize CrewAI agent prompting or tools
+
+📋 Code Style
+Please follow PEP8 conventions and keep your contributions clean and modular.
+
+📬 Need Help?
+Open an issue or reach out via the discussions tab. We're happy to collaborate!
+
 
 
