@@ -26,6 +26,7 @@ pip install -r requirements.txt
 ```
 
 ## 🔐 Environment Variables
+```
 AZURE_OPENAI_API_KEY={AZURE_OPENAI_API_KEY}
 AZURE_OPENAI_API_VERSION={AZURE_OPENAI_API_VERSION}
 AZURE_OPENAI_ENDPOINT={AZURE_OPENAI_ENDPOINT}
@@ -35,6 +36,7 @@ AZURE_DEVOPS_ORG = {AZURE_DEVOPS_ORG}
 AZURE_DEVOPS_PROJECT = {AZURE_DEVOPS_PROJECT}
 AZURE_DEVOPS_REPOSITORY = {AZURE_DEVOPS_REPOSITORY}
 AZURE_DEVOPS_BRANCH = {AZURE_DEVOPS_BRANCH}
+```
 
 ## 🧠 Run the Agent Crew
 Execute the main agent script:
@@ -42,12 +44,13 @@ Execute the main agent script:
 python Code.py
 ```
 ## 📁 Project Structure
-
+```
 ├── Code.py                    # Main entry script
 ├── CodeDocumentationAgent.py # Defines the CrewAI agent
 ├── KnowledgeGraphBuilder.py  # Parses C# and builds graph
 ├── requirements.txt
 └── README.md
+```
 
 # Contribute
 TODO: Explain how other users and developers can contribute to make your code better. 
